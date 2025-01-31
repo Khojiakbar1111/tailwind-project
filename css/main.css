@@ -707,6 +707,15 @@
   .mb-\[15px\] {
     margin-bottom: 15px;
   }
+  .mb-\[20px\] {
+    margin-bottom: 20px;
+  }
+  .mb-\[25px\] {
+    margin-bottom: 25px;
+  }
+  .mb-\[31px\] {
+    margin-bottom: 31px;
+  }
   .mb-\[47px\] {
     margin-bottom: 47px;
   }
@@ -800,8 +809,17 @@
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
+  .h-4 {
+    height: calc(var(--spacing) * 4);
+  }
+  .h-\[19px\] {
+    height: 19px;
+  }
   .h-\[1px\] {
     height: 1px;
+  }
+  .h-\[45px\] {
+    height: 45px;
   }
   .h-\[50px\] {
     height: 50px;
@@ -821,14 +839,32 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
   .w-\[1px\] {
     width: 1px;
   }
+  .w-\[45px\] {
+    width: 45px;
+  }
+  .w-\[50\%\] {
+    width: 50%;
+  }
+  .w-\[50px\] {
+    width: 50px;
+  }
   .w-\[280px\] {
     width: 280px;
+  }
+  .w-\[310px\] {
+    width: 310px;
+  }
+  .w-\[910px\] {
+    width: 910px;
   }
   .w-\[calc\(100\%-280px\)\] {
     width: calc(100% - 280px);
@@ -838,6 +874,9 @@
   }
   .w-screen {
     width: 100vw;
+  }
+  .max-w-\[250px\] {
+    max-width: 250px;
   }
   .max-w-\[439px\] {
     max-width: 439px;
@@ -978,6 +1017,9 @@
   }
   .animate-none {
     animation: none;
+  }
+  .cursor-pointer {
+    cursor: pointer;
   }
   .touch-pinch-zoom {
     --tw-pinch-zoom: pinch-zoom;
@@ -1244,14 +1286,32 @@
   .justify-items-stretch {
     justify-items: stretch;
   }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
+  }
+  .gap-1\.5 {
+    gap: calc(var(--spacing) * 1.5);
+  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
+  }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
+  }
+  .gap-\[15px\] {
+    gap: 15px;
+  }
+  .gap-\[19px\] {
+    gap: 19px;
+  }
+  .gap-\[20px\] {
+    gap: 20px;
   }
   .gap-\[30px\] {
     gap: 30px;
@@ -1261,6 +1321,9 @@
   }
   .gap-\[47px\] {
     gap: 47px;
+  }
+  .gap-\[213px\] {
+    gap: 213px;
   }
   .space-y-reverse {
     :where(& > :not(:last-child)) {
@@ -1367,6 +1430,9 @@
   }
   .rounded-\[15px\] {
     border-radius: 15px;
+  }
+  .rounded-full {
+    border-radius: calc(infinity * 1px);
   }
   .rounded-s {
     border-start-start-radius: 0.25rem;
@@ -1495,11 +1561,20 @@
   .bg-\[\#E9E9E9\] {
     background-color: #E9E9E9;
   }
+  .bg-\[\#F3F3F3\] {
+    background-color: #F3F3F3;
+  }
   .bg-\[color\:var\(--my-color\)\] {
     background-color: var(--my-color);
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
+  }
+  .bg-black {
+    background-color: var(--color-black);
+  }
+  .bg-gray-200 {
+    background-color: var(--color-gray-200);
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
@@ -1706,6 +1781,15 @@
   .px-12 {
     padding-inline: calc(var(--spacing) * 12);
   }
+  .px-\[15px\] {
+    padding-inline: 15px;
+  }
+  .px-\[20px\] {
+    padding-inline: 20px;
+  }
+  .px-\[25px\] {
+    padding-inline: 25px;
+  }
   .px-\[31px\] {
     padding-inline: 31px;
   }
@@ -1721,11 +1805,26 @@
   .py-\[15px\] {
     padding-block: 15px;
   }
+  .py-\[20px\] {
+    padding-block: 20px;
+  }
+  .py-\[29px\] {
+    padding-block: 29px;
+  }
   .py-\[31px\] {
     padding-block: 31px;
   }
+  .py-\[47px\] {
+    padding-block: 47px;
+  }
   .py-\[63px\] {
     padding-block: 63px;
+  }
+  .pt-\[28px\] {
+    padding-top: 28px;
+  }
+  .pt-\[38px\] {
+    padding-top: 38px;
   }
   .pt-\[122px\] {
     padding-top: 122px;
@@ -1735,6 +1834,9 @@
   }
   .pl-12 {
     padding-left: calc(var(--spacing) * 12);
+  }
+  .pl-\[7px\] {
+    padding-left: 7px;
   }
   .text-center {
     text-align: center;
@@ -1786,11 +1888,23 @@
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
   }
+  .text-\[16px\] {
+    font-size: 16px;
+  }
+  .text-\[18px\] {
+    font-size: 18px;
+  }
   .text-\[19px\] {
     font-size: 19px;
   }
   .text-\[20px\] {
     font-size: 20px;
+  }
+  .text-\[24px\] {
+    font-size: 24px;
+  }
+  .text-\[26px\] {
+    font-size: 26px;
   }
   .leading-none {
     --tw-leading: 1;
@@ -1879,6 +1993,9 @@
   }
   .text-\[\#1C1D1D\] {
     color: #1C1D1D;
+  }
+  .text-\[\#595959\] {
+    color: #595959;
   }
   .text-white {
     color: var(--color-white);
