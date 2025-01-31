@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+  font-display: swap;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/sora-v12-latin-regular.woff2") format("woff2");
+}
+
+/* sora-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/sora-v12-latin-500.woff2") format("woff2");
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  font-weight: 500;
+}
